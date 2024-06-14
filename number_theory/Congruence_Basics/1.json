@@ -1,0 +1,12 @@
+[
+  [
+    "8 ≡ 23 (mod 5), true or false?",
+    "8 ≡ 23 (mod 7), true or false?",
+    "18 ≡ 42 (mod 8), true or false?"
+  ],
+  [
+    "true",
+    "false",
+    "true"
+  ]
+]
