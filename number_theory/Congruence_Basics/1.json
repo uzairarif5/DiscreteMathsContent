@@ -1,5 +1,5 @@
 [
-  "<p>Here is some about information and here is some maths \\(x+y=3\\)</p>",
+  "<p><b>Modular arithmetic</b> is a system of arithmetic for integers, where numbers \"wrap around\" when reaching a certain value, called the <b>modulus</b>.</p><p>Given an integer m ≥ 1, called a modulus, two integers α and β are said to be congruent modulo m, if m is a divisor of their difference; that is, if there is an integer k such that: $$ α - β = k m$$</p>",
   [
     "<p>8 ≡ 23 (mod 5), true or false?</p>",
     "<p>8 ≡ 23 (mod 7), true or false?</p>",
