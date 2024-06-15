@@ -1,7 +1,5 @@
 [
-  [
-    "<p>Here is some about information and here is some maths \\(x+y=3\\)</p>"
-  ],
+  "<p>Here is some about information and here is some maths \\(x+y=3\\)</p>",
   [
     "8 ≡ 23 (mod 5), true or false?",
     "8 ≡ 23 (mod 7), true or false?",

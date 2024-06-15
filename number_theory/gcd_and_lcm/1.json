@@ -1,7 +1,5 @@
 [
-  [
-    "<p>Here is some about information and here is some maths \\(x+y=3\\)</p>"
-  ],
+  "<p>Here is some about information and here is some maths \\(x+y=3\\)</p>",
   [
     "gcd(128, 96)",
     "gcd(44, 17)",
