@@ -1,5 +1,5 @@
 [
-  "<p>$gcd(α, β)$ is the greatest common divisor of α and β. For example, $gcd(8, 12)$ is 4.</p><p>$lcm(α, β)$ is the lowest common multiple of α and β. For example, $lcm(4, 6)$ is 12.</p>",
+  "<p>\\(gcd(α, β)\\) is the greatest common divisor of α and β. For example, \\(gcd(8, 12)\\) is 4.</p><p>\\(lcm(α, β)\\) is the lowest common multiple of α and β. For example, \\(lcm(4, 6)\\) is 12.</p>",
   [
     "<p>Find gcd(128, 96)</p>",
     "<p>Find gcd(44, 17)</p>",
