@@ -1,0 +1,22 @@
+[
+  "<p><b>Modular arithmetic</b> is a system of arithmetic for integers, where numbers \"wrap around\" when reaching a certain value, called the <b>modulus</b>.</p><p>Given an integer m ≥ 1, called a modulus, two integers α and β are said to be congruent modulo m, if m is a divisor of their difference; that is, if there is an integer k such that: $$ α - β = k m$$</p>",
+  [
+    "<p>6|42, true or false?</p>",
+    "<p>4|50, true or false?</p>",
+    "<p>16|0, true or false?</p>",
+    "<p>17|998189, true or false?</p>",
+    "<p>If a|b and b|c, then prove that a|c.</p>",
+    "<p>Prove that 3|n<sup>3</sup>-n.</p>",
+    "<p>Prove that 5|n<sup>5</sup>-n.</p>",
+    "<p>Prove that if c|a and c|b, then c|(ma+nb) where m and n are any integers.</p>",
+    "<p>Prove that the sum and product of two even integers are even.</p>",
+    "<p>Prove that the sum of two odd integers is even and that their product is odd.</p>",
+    "<p>Prove that the fourth power of any odd integer is expressible in the form 16n+1.</p>"
+  ],
+  [
+    "<p>true</p>",
+    "<p>false</p>",
+    "<p>false</p>",
+    "<p>true</p>"
+  ]
+]
