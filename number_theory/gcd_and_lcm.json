@@ -7,7 +7,6 @@
   ["<p>Find gcd(18, 36, 63)</p>","<p>9</p>"],
   ["<p>Find gcd(0, 51, 0)</p>","<p>51</p>"],
   ["<p>Find gcd(36, 42, 54, 78)</p>","<p>6</p>"],
-  ["<p>Proof that there exist infinitely many primes of integers x and y such that x+y=87 and (x, y) = 3</p>"],
   ["<p>Let a and b be relatively prime integers. Prove that (a+b, a-b) is either 1 or 2.</p>"],
   ["<p>Let a and b be relatively prime integers. Find all values of (a+2b, 2a+b).</p>"],
   ["<p>Let (a, 4) = 2 and (b,4) = 2. Find (a+b,4).</p>"],
