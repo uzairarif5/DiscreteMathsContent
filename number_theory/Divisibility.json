@@ -10,6 +10,6 @@
   ["<p>Prove that if a|b and c|d, then ab|cd.</p>","FETCH:discrete_mathematics/divisibility/divisibility2"],
   ["Prove that the sum and product of two even integers are even.","<p>Let \\(a=2n\\) and \\(b=2m\\), where \\(n\\) and \\(m\\) are any integers:</p><div>$$\\begin{align} a+b &= 2n+2m \\\\ &= 2(n+m) \\end{align}$$</div><p>This proves that the sum is even.</p><div>$$\\begin{align} a*b &= 2n*2m \\\\ &= 2(n*2m) \\end{align}$$</div><p>This proves that the product is even as well.</p>"],
   ["Prove that the sum of two odd integers is even and that their product is odd.",
-  "<p>Let \\(a=2n+1\\) and \\(b=2m+1\\), where \\(n\\) and \\(m\\) are any integers:</p><div>$$\\begin{align} a+b &= 2n+1+2m+1 \\\\ &= 2(n+m+1) \\end{align}$$</div><p>This proves that the sum is even.</p><div>$$\\begin{align} a*b &= (2n+1)*(2m+1) \\\\ &= 4nm+2n+2m+1 \\end{align}$$</div><p>Since \\(4nm+2n+2m\\) is even, then adding 1 will make it odd.</p>"
+  "<p>Let \\(a=2n+1\\) and \\(b=2m+1\\), where \\(n\\) and \\(m\\) are any integers:</p><div>$$\\begin{align} a+b &= 2n+1+2m+1 \\\\ &= 2(n+m+1) \\end{align}$$</div><p>This proves that the sum is even.</p><div>$$\\begin{align} a*b &= (2n+1)*(2m+1) \\\\ &= 4nm+2n+2m+1 \\end{align}$$</div><p>Since (\\(4nm+2n+2m\\)) is even, then adding 1 will make it odd.</p>"
   ]
 ]
