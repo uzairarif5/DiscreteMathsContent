@@ -2,6 +2,7 @@
   "<p><b>Prime numbers</b> are positive integers greater than 1 with exactly two factors, 1 and the number itself. Examples include 2, 3, 5, 7, 11, 13. A non-prime integer is called <b>composite</b>.</p><p>1 is neither prime nor composite.</p><p><b>Twin Prime Conjecture:</b> There are infinitely many prime numbers \\(p\\) for which is \\(p+2\\) also a prime number. Examples include 3 (as 5 is prime), 17 (as 19 is prime) and 41 (as 43 is prime).</p><p><b>Goldbach's conjecture:</b> Every even integer greater than 2 can be expressed as the sum of two prime numbers.</p><p>A <b>Mersenne prime</b> is a prime number in the form \\(2^p - 1\\) for some prime \\(p\\).</p>",
   ["<p>Which of the following integers are prime: 127, 129, 131, 133, 137, 139.</p>","<p>127, 131, 137 and 139</p>"],
   ["<p>Verify Goldbach's conjecture for the following integers: 30, 98 and 222</p>","<p>30 = 19 + 11</p><p> 98 = 67 + 31</p><p>222 = 83 + 139</p>"],
-  ["<p>Prove that no prime number can be expressed as a<sup>4</sup>-b<sup>4</sup></p>","FETCH:discrete_mathematics/prime_numbers/differenceOfFourthPowers"],
-  ["<p>Prove that if \\(2^p - 1\\) is prime, then \\(p\\) is prime.</p>","FETCH:discrete_mathematics/prime_numbers/Mersenne_prime1"]
+  ["<p>Prove or disprove that no prime number can be expressed as a<sup>4</sup>-b<sup>4</sup></p>","FETCH:discrete_mathematics/prime_numbers/differenceOfFourthPowers"],
+  ["<p>Prove or disprove that if \\(2^p - 1\\) is prime, then \\(p\\) is prime.</p>","FETCH:discrete_mathematics/prime_numbers/Mersenne_prime1"],
+  ["<p>Prove or disprove that if \\(p\\) is prime, then \\(2^p - 1\\) is prime.</p>","<p>Let \\(p\\) be 11, then \\(2^11 - 1\\) is 2047, which is 23 * 89.</p>"]
 ]
