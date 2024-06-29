@@ -11,5 +11,7 @@
   ["Prove that the sum and product of two even integers are even.","<p>Let \\(a=2n\\) and \\(b=2m\\), where \\(n\\) and \\(m\\) are any integers:</p><div>$$\\begin{align} a+b &= 2n+2m \\\\ &= 2(n+m) \\end{align}$$</div><p>This proves that the sum is even.</p><div>$$\\begin{align} a*b &= 2n*2m \\\\ &= 2(n*2m) \\end{align}$$</div><p>This proves that the product is even as well.</p>"],
   ["Prove that the sum of two odd integers is even and that their product is odd.",
   "<p>Let \\(a=2n+1\\) and \\(b=2m+1\\), where \\(n\\) and \\(m\\) are any integers:</p><div>$$\\begin{align} a+b &= 2n+1+2m+1 \\\\ &= 2(n+m+1) \\end{align}$$</div><p>This proves that the sum is even.</p><div>$$\\begin{align} a*b &= (2n+1)*(2m+1) \\\\ &= 4nm+2n+2m+1 \\end{align}$$</div><p>Since (\\(4nm+2n+2m\\)) is even, then adding 1 will make it odd.</p>"
-  ]
+  ],
+  ["Prove that 4n<sup>2</sup> + 4n is divisible by 8","FETCH:discrete_mathematics/divisibility/multipleOf8"],
+  ["Prove that the fourth power of any odd integer is expressible in the form 16k + 1 where k is an integer.","<p>An odd integer is in the form [2m+1] where m is an integer:</p><div>$$\\begin{align} (2m+1)^4 &= (2m+1)(2m+1)(2m+1)(2m+1) \\\\ &= (4m^2 + 4m + 1)(4m^2 + 4m + 1) \\end{align}$$</div><p>Since any integer in the form \\(4m^2 + 4m\\) is a multiple of 8, then:</p><div>$$\\begin{align} &= (8n + 1)(8n + 1) \\\\ &= 64n^2 + 16n +1 \\\\ &= 16(4n^2 + n) +1 \\end{align}$$</div><p>This is the form 16k + 1.</p>"]
 ]
