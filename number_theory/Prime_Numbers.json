@@ -7,5 +7,6 @@
   ["<p>Prove that if \\(2^p - 1\\) is prime, then \\(p\\) is prime.</p>","FETCH:discrete_mathematics/prime_numbers/Mersenne_prime1"],
   ["<p>Prove that if \\(n \\gt 1\\) and \\(a^n - 1\\) is prime, then \\(a=2\\).</p>","FETCH:discrete_mathematics/prime_numbers/Mersenne_prime2"],
   ["<p>Prove that if \\(a^n + 1\\) is an odd prime, then \\(a\\) is even and \\(n\\) is a power of 2.</p>","FETCH:discrete_mathematics/prime_numbers/a_to_the_n_plus_one_prime"],
-  ["<p>Prove that if n<sup>2</sup>+1 is prime, then n<sup>2</sup> = 4k</p>","FETCH:discrete_mathematics/prime_numbers/n_square_prime"]
+  ["<p>Prove that if n<sup>2</sup>+1 is prime, then n<sup>2</sup> = 4k</p>","FETCH:discrete_mathematics/prime_numbers/n_square_prime"],
+  ["<p>For n > 1, prove or disprove that there are infinite prime of the form n<sup>3</sup> + 1.</p>","<p>We can rewrite (n<sup>3</sup> + 1) as (n+1)(n<sup>2</sup>-n+1).</p><p>If n > 1, then both factors would be more than 1.</p>"]
 ]
