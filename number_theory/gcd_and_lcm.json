@@ -1,5 +1,5 @@
 [
-  "<p>\\(gcd(α, β)\\) is the greatest common divisor of α and β. For example, \\(gcd(8, 12)\\) is 4.</p><p>\\(lcm(α, β)\\) is the lowest common multiple of α and β. For example, \\(lcm(4, 6)\\) is 12.</p>",
+  "<p>\\(gcd(α, β)\\) is the greatest common divisor of α and β. For example, \\(gcd(8, 12)\\) is 4.</p><p>\\(lcm(α, β)\\) is the lowest common multiple of α and β. For example, \\(lcm(4, 6)\\) is 12.</p><p>\\(gcd(α, β)\\) represents the smallest possible linear combination of α and β. Also, every linear combination of α and β is a multiple of \\(gcd(α, β)\\), and every multiple of \\(gcd(α, β)\\) is a linear combination of α and β.</p>",
   ["<p>Find gcd(128, 96)</p>","<p>32</p>"],
   ["<p>Find gcd(44, 17)</p>","<p>1</p>"],
   ["<p>Find gcd(98, 14)</p>","<p>14</p>"],
@@ -7,6 +7,7 @@
   ["<p>Find gcd(18, 36, 63)</p>","<p>9</p>"],
   ["<p>Find gcd(0, 51, 0)</p>","<p>51</p>"],
   ["<p>Find gcd(36, 42, 54, 78)</p>","<p>6</p>"],
+  ["<p>Prove that there are infinite values of x and y such that gcd(x, y) divides (x + y)</p>","FETCH:discrete_mathematics/divisibility/gcdDividesPlus"],
   ["<p>Let a and b be relatively prime integers. Prove that (a+b, a-b) is either 1 or 2.</p>"],
   ["<p>Let a and b be relatively prime integers. Find all values of (a+2b, 2a+b).</p>"],
   ["<p>Let (a, 4) = 2 and (b,4) = 2. Find (a+b,4).</p>"],
