@@ -7,10 +7,16 @@
   ["<p>Find gcd(18, 36, 63)</p>","<p>9</p>"],
   ["<p>Find gcd(0, 51, 0)</p>","<p>51</p>"],
   ["<p>Find gcd(36, 42, 54, 78)</p>","<p>6</p>"],
-  ["<p>Prove that there are infinite values of x and y such that gcd(x, y) divides (x + y)</p>","FETCH:discrete_mathematics/divisibility/gcdDividesPlus"],
-  ["<p>Let a and b be relatively prime integers. Prove that (a+b, a-b) is either 1 or 2.</p>"],
-  ["<p>Let a and b be relatively prime integers. Find all values of (a+2b, 2a+b).</p>"],
-  ["<p>Let (a, 4) = 2 and (b,4) = 2. Find (a+b,4).</p>"],
-  ["<p>If (a,b) = 1 and c|(a+b). Prove that (a,c) = 1 and (b,c) = 1.</p>"],
-  ["<p>Let (a, b) = (a, c) = 1. Prove that (a, bc) = 1.</p>"]
+  ["<p>Prove if gcd(x, y) divides (x + y) then there are infinite values of x and y.</p>","FETCH:discrete_mathematics/divisibility/gcdDividesPlus"],
+  ["<p>Prove that if gcd(a, b) = 1, then gcd(ma, mb) = m</p>","FETCH:discrete_mathematics/divisibility/gcdLemma15"],
+  ["<p>Let a and b be relatively prime integers. Prove that (a+b, a-b) is either 1 or 2.</p>","FETCH:discrete_mathematics/divisibility/gcdLemma16"],
+  ["<p>Let a and b be relatively prime integers. Find all values of (a+2b, 2a+b).</p>","<p>Let \\(g=(a+2b, 2a+b)\\). This means \\(g\\) can divide any linear combination of \\(a\\) and \\(b\\).</p><div>$$ g | 2((2a+b)-(a+2b)) \\implies g | 3a $$$$ g | 2((2b+a)-(b+2a)) \\implies g | 3b $$</div><p>This means \\(g\\) can divide any linear combination of \\(3a\\) and \\(3b\\), including the one with their greatest common divisor:</p><div>$$g|(3a,3b)$$$$ g|3(a,b)$$</div><p>From the above we conclude, that \\(g\\) is either 3 or 1.</p>"],
+  ["<p>Let (a, 4) = 2 and (b,4) = 2. Find (a+b,4).</p>","<p>Since both \\(a\\) and \\(b\\) are a multiple of 2 but not 4, then \\(a = 4k+2\\) for some integer \\(k\\) and \\(b = 4l+2\\) for some integer \\(l\\):</p><div>$$ a=4k +2 $$$$ b=4l +2 $$</div><p>We can write \\(a+b\\) as:</p><div>$$ 4k + 2 + 4l +2 $$$$ 4(k+l) + 4 $$</div><p>This is divisible by 4. So the greatest divisor of both \\((a+b)\\) and \\(4\\) is 4.</p>"],
+  ["<p>If (a, b) = 1 and c|(a+b). Prove that (a, c) = 1 and (b, c) = 1.</p>","<p>Let d=(a,c). If d|c, then d|(a+b), that means:</p><div>$$d|(a+b)-a$$$$ d|b $$</div><p>If d divides both a and b, then d is a multiple of (a, b):</p><div>$$ d|(a,b) $$$$ (a, b) = 1 \\implies d=1 $$</div><p>This shows that (a, c) = 1. Similar proof for (b, c) = 1.</p>"],
+  ["<p>Let (a, m) = (b, m) = 1. Prove that (ab, m) = 1.</p>","FETCH:discrete_mathematics/divisibility/multiplicative"],
+  ["",""],
+  ["",""],
+  ["",""],
+  ["",""],
+  ["",""]
 ]
