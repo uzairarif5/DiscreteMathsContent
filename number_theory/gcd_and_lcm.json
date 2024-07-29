@@ -1,5 +1,5 @@
 [
-  "<p>\\( \\gcd(α, β)\\) (also represented as \\((α, β)\\)) is the greatest common divisor of α and β. For example, \\( \\gcd(8, 12)\\) is 4.</p><p>\\( \\lcm(α, β)\\) (also represented as \\([α, β]\\)) is the lowest common multiple of α and β. For example, \\( \\lcm(4, 6)\\) is 12.</p><p>\\( \\gcd(α, β)\\) represents the smallest possible linear combination of α and β. Also, every linear combination of α and β is a multiple of \\( \\gcd(α, β)\\), and every multiple of \\( \\gcd(α, β)\\) is a linear combination of α and β.</p>",
+  "<p>\\( \\gcd(α, β)\\) (also represented as \\((α, β)\\) is the greatest common divisor of α and β. For example, \\( \\gcd(8, 12)\\) is 4.</p><p>\\( \\operatorname{lcm}(α, β)\\) (also represented as \\([α, β]\\) is the lowest common multiple of α and β. For example, \\( \\operatorname{lcm}(4, 6)\\) is 12.</p><p>\\( \\gcd(α, β)\\) represents the smallest possible linear combination of α and β. Also, every linear combination of α and β is a multiple of \\( \\gcd(α, β)\\), and every multiple of \\( \\gcd(α, β)\\) is a linear combination of α and β.</p>",
   ["<p>Find gcd(128, 96)</p>","<p>32</p>"],
   ["<p>Find gcd(44, 17)</p>","<p>1</p>"],
   ["<p>Find gcd(98, 14)</p>","<p>14</p>"],
