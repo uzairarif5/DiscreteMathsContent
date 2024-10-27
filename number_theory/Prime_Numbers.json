@@ -8,5 +8,10 @@
   ["<p>Prove that if \\(n \\gt 1\\) and \\(a^n - 1\\) is prime, then \\(a=2\\).</p>","FETCH:discrete_mathematics/prime_numbers/Mersenne_prime2"],
   ["<p>Prove that if \\(a^n + 1\\) is an odd prime, then \\(a\\) is even and \\(n\\) is a power of 2.</p>","FETCH:discrete_mathematics/prime_numbers/a_to_the_n_plus_one_prime"],
   ["<p>Prove that if n<sup>2</sup>+1 is prime, then n<sup>2</sup> = 4k</p>","FETCH:discrete_mathematics/prime_numbers/n_square_prime"],
-  ["<p>For n ≥ 1, prove or disprove that there are infinite prime of the form n<sup>3</sup> + 1.</p>","<p>We can rewrite (n<sup>3</sup> + 1) as (n+1)(n<sup>2</sup>-n+1).</p><p>If n ≥ 1, then both factors would be more than 1.</p>"]
+  ["<p>For n ≥ 1, prove or disprove that there are infinite prime of the form n<sup>3</sup> + 1.</p>","<p>We can rewrite (n<sup>3</sup> + 1) as (n+1)(n<sup>2</sup>-n+1).</p><p>If n ≥ 1, then both factors would be more than 1.</p>"],
+  ["<p>Find the prime factorization of 24.</p>","<p>\\(2^3 * 3\\)</p>"],
+  ["<p>Find the prime factorization of 1125.</p>","<p>\\(3^2 * 5^3\\)</p>"],
+  ["<p>Find the prime factorization of 3087.</p>","<p>\\(3^2 * 7^3\\)</p>"],
+  ["<p>Find the prime factorization of 5880.</p>","<p>\\(2^3 * 3 *5 * 7^2\\)</p>"],
+  ["<p>Prove that if \\(a^k|b^k\\), then \\(a|b\\).</p>","FETCH:discrete_mathematics/prime_numbers/aSquare_divides_bSquare_implies_a_divides_b"]
 ]

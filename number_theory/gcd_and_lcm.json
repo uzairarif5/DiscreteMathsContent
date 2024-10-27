@@ -21,5 +21,13 @@
   ["<p>Prove that if gcd(a, b) = 1 then gcd(a + b, ab) = 1.</p>","FETCH:discrete_mathematics/more_gcd/gcdLemma11"],
   ["<p>Prove that any integer greater than 6 can be represented as a sum of two relatively prime integers.</p>","FETCH:discrete_mathematics/divisibility/gcdLemma9"],
   ["<p>Prove that if gcd(a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>n</sub>), then gcd(gcd(a<sub>1</sub>, a<sub>2</sub>), a<sub>3</sub>, ..., a<sub>n</sub>)</p>", "FETCH:discrete_mathematics/more_gcd/gcdLemma7"],
-  ["<p>Prove that 6n-1, 6n+1, 6n+2, 6n+3 and 6n+5 are all relatively prime.</p>","<p>All integers of the form 6n-1, 6n+1, 6n+3 and 6n+5 are odd, so their differences would be even are below 6 (i.e. 2 or 4).</p><p>If an integer \\(d\\) divides the numbers of the form 6n-1, 6n+1, 6n+3 and 6n+5, then it also divides their differences (2 or 4). Since none of the numbers are a multiple of 2, there is no integer that divides 6n-1, 6n+1, 6n+3 and 6n+5 along with 2 or 4.</p><p>As for \\(6n+2\\), it is relatively prime with \\(6n+1\\) and \\(6n+3\\) because they are right next to \\(6n+2\\). It also has a difference of 3 with \\(6n-1\\) and \\(6n+5\\). Since the only integer that divides 3 is 3 and 1, and 3 can't divide \\(6n+2\\), then \\(6n+2\\) is relatively prime with \\(6n-1\\) and \\(6n+5\\).</p>"]
+  ["<p>Prove that 6n-1, 6n+1, 6n+2, 6n+3 and 6n+5 are all relatively prime.</p>","<p>All integers of the form 6n-1, 6n+1, 6n+3 and 6n+5 are odd, so their differences would be even are below 6 (i.e. 2 or 4).</p><p>If an integer \\(d\\) divides the numbers of the form 6n-1, 6n+1, 6n+3 and 6n+5, then it also divides their differences (2 or 4). Since none of the numbers are a multiple of 2, there is no integer that divides 6n-1, 6n+1, 6n+3 and 6n+5 along with 2 or 4.</p><p>As for \\(6n+2\\), it is relatively prime with \\(6n+1\\) and \\(6n+3\\) because they are right next to \\(6n+2\\). It also has a difference of 3 with \\(6n-1\\) and \\(6n+5\\). Since the only integer that divides 3 is 3 and 1, and 3 can't divide \\(6n+2\\), then \\(6n+2\\) is relatively prime with \\(6n-1\\) and \\(6n+5\\).</p>"],
+  ["Find \\([4,5]\\).","20"],
+  ["Find \\([6,9]\\).","18"],
+  ["Find \\([18,30]\\).","90"],
+  ["Find \\([48,64]\\).","192"],
+  ["Find \\([150,180]\\).","900"],
+  ["Find \\([330,660]\\).","660"],
+  ["<p>Prove that \\((a,b) * [a,b] = a*b\\).</p>", "FETCH:discrete_mathematics/more_gcd/gcdTimesLcmGivesProduct"],
+  ["<p>Prove that \\((a,b) = [a,b]\\).</p>", "<p>If \\(a \\lt b\\), \\((a, b) \\le a\\) and \\([a, b] \\ge b\\), then \\((a, b) \\lt [a, b]\\). This is a contradiction, so one number can't be less than the other (i.e. \\(a=b\\)).</p>"]
 ]
