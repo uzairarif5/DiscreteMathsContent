@@ -12,12 +12,12 @@
   ["<p>Prove or disprove that if \\(a ≡ b (\\bmod m)\\), \\(c ≡ d (\\bmod m)\\), \\(c|a\\) and \\(d|b\\), then \\(a/c ≡ b/d (\\bmod m)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma8"],
   ["<p>Prove or disprove that if \\(a ≡ b (\\bmod m)\\) and \\(n|m\\), then \\(a ≡ b (\\bmod nm)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma3"],
   ["<p>Prove or disprove that if \\(c\\) is an integer and \\(a ≡ b (\\bmod m)\\), then \\(ca ≡ cb (\\bmod cm)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma5"],
-  ["<p>Prove or disprove that if \\(d|a\\), \\(d|b\\), \\(d|m\\) and \\(a ≡ b mod m\\), then (a/d ≡ b/d \\bmod m/d).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma6"],
+  ["<p>Prove or disprove that if \\(d|a\\), \\(d|b\\), \\(d|m\\) and \\(a ≡ b \\bmod m\\), then \\((a/d ≡ b/d \\bmod m/d)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma6"],
   ["<p>Prove or disprove that if \\(a ≡ b \\bmod m\\), then \\((b, m) = (a, m)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma7"],
   ["<p>Prove or disprove that if \\((ca ≡ cb \\bmod m)\\) if and only if \\((a ≡ b \\bmod m/(c, m))\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma4"],
-  ["<p>Prove or disprove that if \\(c\\) is an odd integer, then \\((c^2 ≡ 1 \\bmod 4)\\) and \\((c^2 ≡ 1 mod 8)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma9"],
+  ["<p>Prove or disprove that if \\(c\\) is an odd integer, then \\((c^2 ≡ 1 \\bmod 4)\\) and \\((c^2 ≡ 1 \\bmod 8)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma9"],
   ["<p>Prove or disprove that if \\(n\\) is a positve integer and \\((n ≡ 3 \\bmod 4)\\), then n cannot be written as a sum of two square integers.</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma10"],
   ["<p>Prove or disprove that if \\((b ≡ 1 \\bmod m)\\), \\((b ≡ 1 \\bmod n)\\) and \\(\\gcd(m, n) = 1\\), then \\((b ≡ 1 \\bmod mn)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma11"],
   ["<p>Prove or disprove that if n is odd and (3 ∤ n), then \\((n^2 ≡ 1 \\bmod 24)\\).</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma12"],
-  ["<p>Prove that an integer is divisible by 7 if the alternating sum of blocks of three divisible by 7. For example, 4896927 is divisible by 7 because [927 - 896 + 4] = 35, which is divisible by 7.</p>","FETCH:discrete_mathematics/modular_arithmetic/divisibility_rule_for_7"]
+  ["<p>Prove that an integer is divisible by 7 if the alternating sum of blocks of three divisible by 7. For example, 4896927 is divisible by 7 because [927 - 896 + 4] = 35, which is divisible by 7.</p>","FETCH:discrete_mathematics/divisibility_rules/divisibility_rule_for_7"]
 ]
