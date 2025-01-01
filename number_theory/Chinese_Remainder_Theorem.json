@@ -1,0 +1,11 @@
+[
+  "<p>Suppose we have a system of congruences with different moduli:</p><div>\\begin{gather} x ≡ b_1 \\bmod n_1 \\\\ x ≡ b_2 \\bmod n_2 \\\\ \\vdots \\\\ x ≡ b_k \\bmod n_k \\end{gather}</div><p>And suppose \\((n_i, n_j) = 1\\) whenever \\(i \\ne j\\). This means all pairs of \\(n\\) are coprime. Let \\(N = n_1n_2 \\ldots n_k\\), let \\(N_i = \\frac{N}{n_i}\\) and let \\(N_i^{-1}\\) be the inverse of \\(N_i\\) modulo \\(n_i\\). The solution of the congruences is:</p><div>$$ x = N_1N_1^{-1}b_1 + N_2N_2^{-1}b_2 + \\ldots + N_kN_k^{-1}b_k $$</div>",
+  [
+    "<p>Find the least nonnegative solution for this system of congruences:</p><div>\\begin{gather} x ≡ 2 \\bmod 3 \\\\ x ≡ 1 \\bmod 4 \\\\ x ≡ 3 \\bmod 5 \\end{gather}</div>",
+    "<p>Let \\(N = (3)(4)(5) = 60\\), \\(N_1 = 20\\), \\(N_2 = 15\\) and \\(N_3 = 12\\). There exists inverses \\(N_i^{-1}\\):</p><div>\\begin{gather} 20 N_1^{-1} ≡ 1 \\bmod 3 \\implies N_1^{-1} = 2 \\\\ 15 N_2^{-1} ≡ 1 \\bmod 4 \\implies N_2^{-1} = 3 \\\\ 12 N_3^{-1} ≡ 1 \\bmod 5 \\implies N_3^{-1} = 3\\end{gather}</div><p>So the solution is \\(x = N_1N_1^{-1} (2) + N_2N_2^{-1} (1) + N_3N_3^{-1} (3) = 233 \\). This means least nonnegtaive solution mod \\(N\\) would be \\(x = 53\\).</p>"
+  ],
+  [
+    "<p>Find the least nonnegative solution for this system of congruences:</p><div>\\begin{gather} x ≡ 1 \\bmod 7 \\\\ x ≡ 4 \\bmod 6 \\\\ x ≡ 3 \\bmod 5 \\end{gather}</div>",
+    "<p>Let \\(N = (7)(6)(5) = 210\\), \\(N_1 = 30\\), \\(N_2 = 35\\) and \\(N_3 = 42\\). There exists inverses \\(N_i^{-1}\\):</p><div>\\begin{gather} 30 N_1^{-1} ≡ 1 \\bmod 7 \\implies N_1^{-1} = 4 \\\\ 35 N_2^{-1} ≡ 1 \\bmod 6 \\implies N_2^{-1} = 5 \\\\ 42 N_3^{-1} ≡ 1 \\bmod 5 \\implies N_3^{-1} = 3\\end{gather}</div><p>So the solution is \\(x = N_1N_1^{-1} (1) + N_2N_2^{-1} (4) + N_3N_3^{-1} (3) = 1198 \\). This means least nonnegtaive solution mod \\(N\\) would be \\(x = 148\\).</p>"
+  ]
+]

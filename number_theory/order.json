@@ -2,7 +2,10 @@
   "Divisibility",
   "Prime_Numbers",
   "Exactly_Divides",
-  "gcd_and_lcm", 
+  "Gcd_And_Lcm", 
   "Euclidean_Algorithm",
-  "Congruence_Basics"
+  "Congruence_Basics",
+  "Residue_Systems",
+  "Linear_Congruences_In_One_Variable",
+  "Chinese_Remainder_Theorem"
 ]
