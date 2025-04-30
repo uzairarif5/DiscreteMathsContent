@@ -1,7 +1,23 @@
 [
   "<p>An <b>arithmetic function</b> is a function whose domain is the set of positive integers. For example, the Euler phi-function: \\(\\phi(n)\\).</p><p>An arithmetic function \\(f\\) is said to be <b>multiplicative</b> if \\(f(mn)=f(m)f(n)\\) whenever \\(m\\) and \\(n\\) are relatively prime positive integers.</p><p>An arithmetic function \\(f\\) is said to be <b>completely multiplicative</b> if \\(f(mn)=f(m)f(n)\\) for all positive integers \\(m\\) and \\(n\\).</p><p>If \\(n\\) is a positive integer, then by the fundamental theorem of arithmetic:</p><div>\\[n = p_1^{a_1} + p_2^{a_2} + \\cdots + p_r^{a_r}\\]</div><p>Let \\(f\\) be a multiplicative arithmetic function. Since \\((p_i^{a_i}, p_j^{a_j})=1\\) whenever \\(i \\ne j\\), we have:</p><div>\\[f(n) = f(p_1^{a_1} + p_2^{a_2} + \\cdots + p_r^{a_r}) = f(p_1^{a_1})f(p_2^{a_2}) \\cdots f(p_r^{a_r})\\]</div>", 
   [
-    "<p>The notation \\(\\sum_{d|n, d \\gt 0}\\) means \"the summation over all distinct positive divisors \\(d\\) of \\(n\\)\".</p><p>Let \\(f\\) be an arithmetic function and, for \\(n \\in \\mathbb{Z}^+\\) with \\(n \\gt 0\\), let \\(F(n)= \\sum_{d|n, d \\gt 0} f(d)\\). Prove that if \\(f\\) is multiplicative, then \\(F\\) is multiplicative.</p>", "FETCH:discrete_mathematics/arithmetic_functions/arithmetic_lemma1"
+    "<p>Let \\(n \\in \\mathbb{Z}^+\\). Is \\(f(n)=0\\) completely multiplicative?</p>",
+    "<div>\\begin{gather} h \\in \\mathbb{Z}^+ \\implies f(h)=0 \\\\ k \\in \\mathbb{Z}^+ \\implies f(k)=0 \\\\ \\therefore f(h)f(k) = 0 \\end{gather}</div><p>Since any positive integer input gives the output 0, then \\(f(hk)=0\\). Therefore, \\(f(h)f(k)=f(hk)\\), which shows \\(f\\) is completely multiplicative.</p>"
+  ],
+  [
+    "<p>Let \\(n \\in \\mathbb{Z}^+\\). Is \\(f(n)=1\\) completely multiplicative?</p>",
+    "<div>\\begin{gather} h \\in \\mathbb{Z}^+ \\implies f(h)=1 \\\\ k \\in \\mathbb{Z}^+ \\implies f(k)=1 \\\\ \\therefore f(h)f(k) = 1 \\end{gather}</div><p>Since any positive integer input gives the output 1, then \\(f(hk)=1\\). Therefore, \\(f(h)f(k)=f(hk)\\), which shows \\(f\\) is completely multiplicative.</p>"
+  ],
+  [
+    "<p>Let \\(n \\in \\mathbb{Z}^+\\). Is \\(f(n)=2\\) completely multiplicative?</p>",
+    "<div>\\begin{gather} h \\in \\mathbb{Z}^+ \\implies f(h)=2 \\\\ k \\in \\mathbb{Z}^+ \\implies f(k)=2 \\end{gather}</div><p>Since any positive integer input gives the output 2, then \\(f(hk)=2\\). Therefore, \\(f(h)f(k) = 4 \\ne f(hk)\\), which shows \\(f\\) is not completely multiplicative.</p>"
+  ],
+  [
+    "<p>Let \\(n \\in \\mathbb{Z}^+\\) and let \\(c\\) be some constant real number. Is \\(f(n)=n^c\\) completely multiplicative?</p>",
+    "<div>\\begin{gather} h \\in \\mathbb{Z}^+ \\implies f(h)=h^c \\\\ k \\in \\mathbb{Z}^+ \\implies f(k)=k^c \\\\ f(hk) = (hk)^c \\\\ f(h)f(k) = h^c k^c = (hk^c) \\end{gather}</div><p>Therefore \\(f\\) is completely multiplicative.</p>"
+  ],
+  [
+    "<p>The notation \\(\\sum_{d|n, d \\gt 0}\\) means \"the summation over all distinct positive divisors \\(d\\) of \\(n\\)\".</p><p>Let \\(f\\) be an arithmetic function and, for \\(n \\in \\mathbb{Z}^+\\) with \\(n \\gt 0\\), let \\(F(n)= \\sum_{d|n, d \\gt 0} f(d)\\).</p><p>Prove that if \\(f\\) is multiplicative, then \\(F\\) is multiplicative.</p>", "FETCH:discrete_mathematics/arithmetic_functions/arithmetic_lemma1"
   ],
   [
     "<p>Let \\(f\\) be a multiplicative arithmetic function, and not identically zero (i.e. there exists an integer \\(n\\) such that \\(f(n) \\ne 0\\)). Prove that \\(f(1)=1\\).</p>","<p>If \\(f\\) is multiplicative, then \\(f(mn)=f(m)f(n)\\) whenever \\((m,n)=1\\). Now let \\(m=1\\), so \\(f(1 \\cdot n) = f(1)f(n)\\). This means \\(f(n)=f(1)f(n)\\). Therefore, \\(f(1)=1\\).</p>"
