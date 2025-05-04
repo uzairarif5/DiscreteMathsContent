@@ -25,5 +25,9 @@
   [
     "<p>Let function \\(\\phi\\) be defined by \\(\\phi(1)=1\\) and \\(\\phi(n) = 2^m\\), where \\(m\\) is the number of distinct primes in the prime factorization of \\(n\\). For example, 20 has 2 distinct prime factors (2 and 5), so \\(\\phi(20)=2^2=4\\).</p><p>Prove that \\(\\phi\\) is multiplicative but not completely multiplicative.</p>",
     "<p>Let integer \\(h\\) have \\(x\\) distinct prime factors and integer \\(k\\) have \\(y\\) distinct prime factors.</p><p>If \\((h,k)=1\\), then \\(h\\) and \\(k\\) have no common prime factors. This means \\(hk\\) has exactly \\(x+y\\) prime factors. Therefore, \\(\\phi(hk) = 2^{x+y} = 2^x 2^y = \\phi(h) \\phi(k)\\). This shows \\(\\phi\\) is multiplicative.</p><p>To show that \\(\\phi\\) is not omcpletely multiplicative, a contradiction would suffice. Suppose \\(\\phi\\) is completely multiplicative. Let \\(h=6\\) and \\(k=4\\):</p><div>\\[ \\begin{gather} \\phi(6) = 2^2 \\\\ \\phi(4) = 2^1 \\\\ \\therefore \\phi(6)\\phi(4) = 8 \\end{gather}\\]</div><p>Since \\(6*4=24\\), and 24 has 2 prime factors, then \\(\\phi(6 \\cdot 4) = \\phi(24) = 2^2 = 4 \\ne \\phi(6)\\phi(4)\\). This shows that \\(\\phi\\) cannot be completely multiplicative.</p>"
+  ],
+  [
+    "<p>Prove that the Euler phi function is multiplicative (i.e. \\((m, n) =1 \\implies \\phi(mn) = \\phi(m)*\\phi(n)\\)).</p>",
+    "FETCH:discrete_mathematics/arithmetic_functions/multiplicative2"
   ]
 ]
