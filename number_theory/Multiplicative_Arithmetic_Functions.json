@@ -35,8 +35,8 @@
     "FETCH:discrete_mathematics/arithmetic_functions/multiplicative3"
   ],
   [
-    "<p>Let \\(\\phi\\), be the Euler phi function. Prove that:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>The \\(\\prod_{p|n, \\ p \\text{ is prime}}\\) means \"the product over all distinct prime divisor \\(p\\) of \\(n\\)\".</p>",
-    "FETCH:discrete_mathematics/arithmetic_functions/multiplicative4"
+    "<p>Let \\(\\phi\\), be the Euler phi function. Prove that:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>The \\(\\prod_{p|n, \\ p \\text{ is prime}}\\) means \"the product over all distinct prime divisor \\(p\\) of \\(n\\)\".</p>", "FETCH:discrete_mathematics/arithmetic_functions/multiplicative4"
   ],
+  ["<p>What is \\(\\phi(105)\\)?</p>","<p>We can use this formula:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>Since only three primes divide 105:</p><div>\\[\\begin{align} \\phi(105) &= 105 \\left( 1 - \\frac{1}{3} \\right) \\left( 1 - \\frac{1}{5} \\right) \\left( 1 - \\frac{1}{7} \\right) \\\\ &= 48 \\end{align}\\]</div>"],
   ["<p>Prove that \\( \\sum_{d|n, d>0} \\phi(d) = n \\).</p>", "FETCH:discrete_mathematics/arithmetic_functions/multiplicative5"]
 ]
