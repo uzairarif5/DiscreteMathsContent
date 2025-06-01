@@ -37,5 +37,6 @@
   [
     "<p>Let \\(\\phi\\), be the Euler phi function. Prove that:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>The \\(\\prod_{p|n, \\ p \\text{ is prime}}\\) means \"the product over all distinct prime divisor \\(p\\) of \\(n\\)\".</p>",
     "FETCH:discrete_mathematics/arithmetic_functions/multiplicative4"
-  ]
+  ],
+  ["<p>Prove that \\( \\sum_{d|n, d>0} \\phi(d) = n \\).</p>", "FETCH:discrete_mathematics/arithmetic_functions/multiplicative5"]
 ]
