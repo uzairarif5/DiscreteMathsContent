@@ -20,5 +20,5 @@
   ["<p>Prove that an integer is divisible by 2 if the units digit is divisible by 2.</p>","FETCH:discrete_mathematics/divisibility_rules/divisibility_rule_for_2"],
   ["<p>Prove that an integer is divisible by 3 if and only if the sum of it's digits are divisble by 3.</p>","FETCH:discrete_mathematics/divisibility_rules/divisibility_rule_for_3"],
   ["<p>Prove that an integer is divisible by 11 if the integer obtained by alternately adding and substracting the digits is divisible by 11. For example, 918082 is divisible by 11 because [9 - 1 + 8 - 0 + 8 - 2] = 22, which is divisible by 11</p>","FETCH:discrete_mathematics/divisibility_rules/divisibility_rule_for_11"],
-  ["<p>Prove that for positive integers \\(m\\), \\(n\\) and \\(d\\), if \\((m, n) = 1 ∧ d|mn\\), then there exists integers \\(d_1\\) and \\(d2\\), such that \\(d_1d_2 = d\\), \\(d_1|m\\), \\(d_2|n\\) and \\((d_1, d_2) = 1\\)","FETCH:https://www.deriveit.net/discrete_mathematics/divisibility/divisibility4"]
+  ["<p>Prove that for positive integers \\(m\\), \\(n\\) and \\(d\\), if \\((m, n) = 1 ∧ d|mn\\), then there exists integers \\(d_1\\) and \\(d2\\), such that \\(d_1d_2 = d\\), \\(d_1|m\\), \\(d_2|n\\) and \\((d_1, d_2) = 1\\)","FETCH:discrete_mathematics/divisibility/divisibility4"]
 ]

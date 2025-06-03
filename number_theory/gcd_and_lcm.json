@@ -7,6 +7,8 @@
   ["<p>Find gcd(18, 36, 63)</p>","<p>9</p>"],
   ["<p>Find gcd(0, 51, 0)</p>","<p>51</p>"],
   ["<p>Find gcd(36, 42, 54, 78)</p>","<p>6</p>"],
+  ["<p>If \\(p\\) is prime and \\(p \\nmid a\\), then prove \\((p, a)=1\\).</p>","FETCH:discrete_mathematics/prime_numbers/primeLemma2"],
+  ["<p>If \\(n\\) is a composite integer, prove that it can be written as a product of two coprime integers.</p>","FETCH:discrete_mathematics/prime_numbers/composite_as_coprime_integers"],
   ["<p>Prove if gcd(x, y) divides (x + y) then there are infinite values of x and y.</p>","FETCH:discrete_mathematics/more_gcd/gcdDividesPlus"],
   ["<p>Prove that m * gcd(a, b) = gcd(ma, mb)</p>","FETCH:discrete_mathematics/more_gcd/gcdLemma15"],
   ["<p>Let a and b be relatively prime integers. Prove that (a+b, a-b) is either 1 or 2.</p>","FETCH:discrete_mathematics/more_gcd/gcdLemma16"],
@@ -29,6 +31,7 @@
   ["Find \\([48,64]\\).","192"],
   ["Find \\([150,180]\\).","900"],
   ["Find \\([330,660]\\).","660"],
-  ["<p>Prove that \\((a,b) * [a,b] = a*b\\).</p>", "FETCH:discrete_mathematics/more_gcd/gcdTimesLcmGivesProduct"],
-  ["<p>Prove that \\((a,b) = [a,b]\\).</p>", "<p>If \\(a \\lt b\\), \\((a, b) \\le a\\) and \\([a, b] \\ge b\\), then \\((a, b) \\lt [a, b]\\). This is a contradiction, so one number can't be less than the other (i.e. \\(a=b\\)).</p>"]
+  ["<p>Prove that \\((a,b) * [a,b] = a*b\\).</p>", "FETCH:discrete_mathematics/lcm/gcdTimesLcmGivesProduct"],
+  ["<p>Prove that \\(c * [a,b] = [ca, cb]\\).</p>", "FETCH:discrete_mathematics/lcm/lcmLemma2"],
+  ["<p>Prove that \\([a,b, c] = [[a, b], c]\\).</p>", "FETCH:discrete_mathematics/lcm/lcmLemma3"]
 ]
