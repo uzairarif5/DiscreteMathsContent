@@ -1,8 +1,8 @@
 [
   "<p>If \\(p\\) is a prime number, then <b>Wilsons's Theorem</b> states that \\((p-1)! ≡ -1 \\bmod p\\). The converse is also true: If \\((n-1)! ≡ -1 \\bmod n\\), then \\(n\\) is prime.</p>",
   ["<p>Prove that if \\(p\\) is an odd prime, then \\( (p-2)! ≡ 1 \\bmod p \\).</p>","<p>Every term in \\( 2,3,4, \\ldots , (p-3), (p-2) \\}\\) is coprime with \\(p\\), and since \\(p\\) is odd, there is an even number of elements in \\(\\{ 2,3, \\ldots , (p-2) \\}\\). There is no number in \\(\\{ 2,3, \\ldots , (p-2) \\}\\) which is the inverse to \\(1\\) or \\(p\\), which means each number in the set has an inverse that is also in the set, so we can pair each number with their inverse:</p><div>\\[ \\begin{align} (2)(3) \\cdots (p-3)(p-2) &= (a_1a_1^{-1})(a_2a_2^{-1}) \\dots (a_ka_k^{-1}) \\\\ &≡ (1)(1) \\ldots (1) \\mod p \\end{align} \\]</div>"],
-  ["<p>Prove Wilson's Theorem.</p>","FETCH:discrete_mathematics/more_congruence/Wilsons_theorem"],
-  ["<p>Prove the converse of Wilson's Theorem.</p>","FETCH:discrete_mathematics/more_congruence/converse_of_Wilsons_theorem"],
-  ["<p>Prove that \\(2(p-3)! ≡ -1 \\bmod p\\).</p>","FETCH:discrete_mathematics/more_congruence/two_times_p_minus_3_factorial"],
-  ["<p>Prove that if \\(p ≡ 1 \\bmod 4\\) or \\(p=2\\), then \\( \\left( \\frac{p-1}{2} \\right) ! ≡ -1 \\bmod p\\).</p>","FETCH:discrete_mathematics/more_congruence/x_square_solvable"]
+  ["<p>Prove Wilson's Theorem.</p>","FETCH:number_theory/more_congruence/Wilsons_theorem"],
+  ["<p>Prove the converse of Wilson's Theorem.</p>","FETCH:number_theory/more_congruence/converse_of_Wilsons_theorem"],
+  ["<p>Prove that \\(2(p-3)! ≡ -1 \\bmod p\\).</p>","FETCH:number_theory/more_congruence/two_times_p_minus_3_factorial"],
+  ["<p>Prove that if \\(p ≡ 1 \\bmod 4\\) or \\(p=2\\), then \\( \\left( \\frac{p-1}{2} \\right) ! ≡ -1 \\bmod p\\).</p>","FETCH:number_theory/more_congruence/x_square_solvable"]
 ]

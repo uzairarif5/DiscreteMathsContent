@@ -2,14 +2,14 @@
   "<p>The Euler's totient function counts the positive integers up to a given integer \\(n\\) that are relatively prime to \\(n\\). This is a multiplicative but not completely multiplicative function.</p>", 
   [
     "<p>Prove that the Euler phi function is multiplicative (i.e. \\((m, n) =1 \\implies \\phi(mn) = \\phi(m)*\\phi(n)\\)).</p>",
-    "FETCH:discrete_mathematics/arithmetic_functions/multiplicative2"
+    "FETCH:number_theory/arithmetic_functions/multiplicative2"
   ],
   [
     "<p>Let \\(\\phi\\) be the Euler phi function. Prove that \\(\\phi(p^a)=(p-1) * p^{a-1}\\).</p>",
-    "FETCH:discrete_mathematics/arithmetic_functions/multiplicative3"
+    "FETCH:number_theory/arithmetic_functions/multiplicative3"
   ],
   [
-    "<p>Let \\(\\phi\\) be the Euler phi function. Prove that:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>The \\(\\prod_{p|n, \\ p \\text{ is prime}}\\) means \"the product over all distinct prime divisor \\(p\\) of \\(n\\)\".</p>", "FETCH:discrete_mathematics/arithmetic_functions/multiplicative4"
+    "<p>Let \\(\\phi\\) be the Euler phi function. Prove that:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>The \\(\\prod_{p|n, \\ p \\text{ is prime}}\\) means \"the product over all distinct prime divisor \\(p\\) of \\(n\\)\".</p>", "FETCH:number_theory/arithmetic_functions/multiplicative4"
   ],
   [
     "<p>What is \\(\\phi(105)\\)?</p>","<p>We can use this formula:</p><div>\\[ \\phi(n) =n \\prod_{p|n, \\ p \\text{ is prime}} \\left( 1 - \\frac{1}{p} \\right) \\]</div><p>Since only three primes (3, 5 and 7) divide 105:</p><div>\\[\\begin{align} \\phi(105) &= 105 \\left( 1 - \\frac{1}{3} \\right) \\left( 1 - \\frac{1}{5} \\right) \\left( 1 - \\frac{1}{7} \\right) \\\\ &= 48 \\end{align}\\]</div>"
@@ -33,12 +33,12 @@
   [
     "Prove that there are no integers \\(n\\) such that \\(\\phi(n) = \\frac{n}{4}\\).", "<p>Let the prime factors \\(n\\) be \\(p_1^{a_1}p_2^{a_2}p_3^{a_3} \\cdots p_k^{a_k}\\). The formula for \\(\\phi(n)\\) is:</p> <div>\\[\\phi(n) = ( p_1^{a_1 - 1} p_2^{a_2 - 1} p_3^{a_3 - 1} \\cdots p_k^{a_k - 1} ) \\ \\prod_{i=1}^k (p_i - 1) \\]</div> <p>Let \\(\\phi(n) = n/4\\):</p> <div>\\[\\begin{gather} n/4 = ( p_1^{a_1 - 1} p_2^{a_2 - 1} p_3^{a_3 - 1} \\cdots p_k^{a_k - 1} ) \\ \\prod_{i=1}^k (p_i - 1) \\\\ \\frac{p_1^{a_1}p_2^{a_2}p_3^{a_3} \\cdots p_k^{a_k}}{p_1^{a_1 - 1} p_2^{a_2 - 1} p_3^{a_3 - 1} \\cdots p_k^{a_k - 1}} = 4 \\ \\prod_{i=1}^k (p_i - 1) \\\\ p_1 p_2 p_3 \\cdots p_k = 4 (p_1 - 1)(p_2 - 1) \\cdots (p_k - 1) \\end{gather}\\]</div><p>For \\(n/4\\) to be an integer, \\(n\\) has to be even. Let 2 be one of the factors of \\(n\\) and let \\(p_1 = 2\\):</p><div>\\[p_2 p_3 \\cdots p_k = 2 (p_2 - 1) \\cdots (p_k - 1) \\]</div> <p>On the left hand side, we have products of odd integers, which give an odd result, while on the right hand side, we have an even integer. This is a contradiction.</p><p>Therefore, it's not possible that \\(\\phi(n)=n/4\\).</p>"
   ],
-  ["<p>Prove that \\( \\phi(n) \\ge \\sqrt{\\frac{n}{2}} \\).</p>", "FETCH:discrete_mathematics/arithmetic_functions/phi_lower_bound"],
-  ["<p>Prove that when \\(n\\) is composite, \\(\\phi(n) \\le n - \\sqrt{n}\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/phi_higher_bound_when_n_composite"],
-  ["<p>Prove that if \\(n\\) is even, \\(\\phi(2n) = 2\\phi(n)\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/even_phi"],
-  ["<p>Prove that if \\(n\\) is odd, \\(\\phi(2n) = \\phi(n)\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/odd_phi"],
-  ["<p>Prove that \\(\\phi(n^j) = n^{j-1} \\phi(n)\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/phi_with_exponent"],
-  ["<p>Prove that if \\(m|n\\), then \\(\\phi(m)|\\phi(n)\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/num_divides_so_phi_divides"],
-  ["<p>Prove that if \\(m|n\\), then \\(\\phi(m)=m \\phi(n)\\).</p>","FETCH:discrete_mathematics/arithmetic_functions/Euler_phi_lemma1"],
-  ["<p>Prove that \\( \\sum_{d|n, d>0} \\phi(d) = n \\).</p>", "FETCH:discrete_mathematics/arithmetic_functions/multiplicative5"]
+  ["<p>Prove that \\( \\phi(n) \\ge \\sqrt{\\frac{n}{2}} \\).</p>", "FETCH:number_theory/arithmetic_functions/phi_lower_bound"],
+  ["<p>Prove that when \\(n\\) is composite, \\(\\phi(n) \\le n - \\sqrt{n}\\).</p>","FETCH:number_theory/arithmetic_functions/phi_higher_bound_when_n_composite"],
+  ["<p>Prove that if \\(n\\) is even, \\(\\phi(2n) = 2\\phi(n)\\).</p>","FETCH:number_theory/arithmetic_functions/even_phi"],
+  ["<p>Prove that if \\(n\\) is odd, \\(\\phi(2n) = \\phi(n)\\).</p>","FETCH:number_theory/arithmetic_functions/odd_phi"],
+  ["<p>Prove that \\(\\phi(n^j) = n^{j-1} \\phi(n)\\).</p>","FETCH:number_theory/arithmetic_functions/phi_with_exponent"],
+  ["<p>Prove that if \\(m|n\\), then \\(\\phi(m)|\\phi(n)\\).</p>","FETCH:number_theory/arithmetic_functions/num_divides_so_phi_divides"],
+  ["<p>Prove that if \\(m|n\\), then \\(\\phi(m)=m \\phi(n)\\).</p>","FETCH:number_theory/arithmetic_functions/Euler_phi_lemma1"],
+  ["<p>Prove that \\( \\sum_{d|n, d>0} \\phi(d) = n \\).</p>", "FETCH:number_theory/arithmetic_functions/multiplicative5"]
 ]

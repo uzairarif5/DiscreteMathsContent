@@ -4,6 +4,6 @@
   ["<p>The set {28, 15, 30, 3, 158, 145, 90, 35, 8, 23, 10, 81, 40, 27} is a complete residute system modulo 14. What is the reduced residue system using this set?</p>","<p>The numbers in the set {15, 3, 145, 23, 81, 27} are all coprime to 14.</p>"],
   ["<p>Give an example of a complete residue system modulo 7 consisting entirely of even numbers.</p>","<p>{0,8,2,10,4,12,6}</p>"],
   ["<p>Give an example of a complete residue system modulo 7 consisting entirely of odd numbers.</p>","<p>{7,1,9,3,11,5,13}</p>"],
-  ["<p>Prove that if \\((a, m) = 1\\) and if \\( \\{r_1, ..., r_{φ(m)} \\} \\) is a reduced residue system (modulo m), then \\( \\{ ar_1, ..., ar_{φ(m)} \\} \\) is also a reduced residue system.</p>","FETCH:discrete_mathematics/modular_arithmetic/multiplying_reduced_residue_system"],
-  ["<p>Prove that if \\((m, n) = 1\\), then \\( \\{ i, m+i, 2m+i, \\ldots, (n-1)m+i \\}\\) form a complete system of residues modulo \\(n\\)</p>","FETCH:discrete_mathematics/modular_arithmetic/modLemma13"]
+  ["<p>Prove that if \\((a, m) = 1\\) and if \\( \\{r_1, ..., r_{φ(m)} \\} \\) is a reduced residue system (modulo m), then \\( \\{ ar_1, ..., ar_{φ(m)} \\} \\) is also a reduced residue system.</p>","FETCH:number_theory/modular_arithmetic/multiplying_reduced_residue_system"],
+  ["<p>Prove that if \\((m, n) = 1\\), then \\( \\{ i, m+i, 2m+i, \\ldots, (n-1)m+i \\}\\) form a complete system of residues modulo \\(n\\)</p>","FETCH:number_theory/modular_arithmetic/modLemma13"]
 ]
