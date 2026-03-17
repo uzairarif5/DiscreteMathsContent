@@ -7,5 +7,6 @@
   ["<p>Prove or disprove that the sum of a rational and an irrational number can be rational.</p>","FETCH:number_theory/sum_and_product/sumRationalIrrational"],
   ["<p>Prove or disprove that the sum of two irrationals is always irrational.</p>","FETCH:number_theory/sum_and_product/sumIrrationals"],
   ["<p>Prove or disprove that the product of a rational and an irrational is always an irrational.</p>","FETCH:number_theory/sum_and_product/productRationalIrrational"],
-  ["<p>Prove or disprove that the product of two irrationals is always an irrational.</p>", "<p>\\(\\sqrt{2}\\) is an irrational, and \\(\\sqrt{2} * \\sqrt{2} = 2\\). This shows that the product of two irrationals can give a rational.</p>"]
+  ["<p>Prove or disprove that the product of two irrationals is always an irrational.</p>", "<p>\\(\\sqrt{2}\\) is an irrational, and \\(\\sqrt{2} * \\sqrt{2} = 2\\). This shows that the product of two irrationals can give a rational.</p>"],
+  ["<p>Proof that \\(\\sqrt{3}\\) is irrational using the well-ordering property.</p>","FETCH:number_theory/sum_and_product/root3IrrationalUsingWellOrdering"]
 ]
