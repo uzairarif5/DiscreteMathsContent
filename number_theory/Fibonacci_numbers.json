@@ -1,0 +1,8 @@
+[
+  "<p>The <b>Fibonacci sequence</b> is defined recursively by \\(f_1 = 1\\), \\(f_2 = 1\\), and \\(f_n = f_{n-1}+f_{n-2}\\) for \\(n \\ge 3\\).</p><p>The terms of this sequence are called the <b>Fibonacci numbers</b></p><p>The first ten Fibonacci numbers: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55.</p>",
+  ["<p>Find the 15th Fibonacci number.</p><p>610</p>"],
+  ["<p>The sum of the first \\(n\\) Fibonacci numbers equals 1, 2, 4, 7, 12, 20, 33, 54. Find a formula for the first \\(n\\) Fibonacci numbers.</p>", "FETCH:discrete_mathematics/sequence_and_series/sum_of_the_first_n_Fibonacci_numbers"],
+  ["<p>The sum of the first \\(n\\) Fibonacci numbers equals 1, 2, 4, 7, 12, 20, 33, 54. Find a formula for the first odd \\(n\\) Fibonacci numbers.</p>", "FETCH:discrete_mathematics/sequence_and_series/sum_of_the_first_odd_n_Fibonacci_numbers"],
+  ["<p>The sum of the first \\(n\\) Fibonacci numbers equals 1, 2, 4, 7, 12, 20, 33, 54. Find a formula for the first even \\(n\\) Fibonacci numbers.</p>", "FETCH:discrete_mathematics/sequence_and_series/sum_of_the_first_even_n_Fibonacci_numbers"],
+  ["<p>Find a formula for the sums:$$\\begin{align} &f_n - f_{n-1} + f_{n-2} - f_{n-3} + \\cdots - f_1 \\\\ \\text{and} \\quad &f_n - f_{n-1} + f_{n-2} - f_{n-3} + \\cdots + f_1 \\end{align}$$</p>", "FETCH:discrete_mathematics/sequence_and_series/formula_for_the_alternating_sum_of_Fibonacci_numbers"]
+]

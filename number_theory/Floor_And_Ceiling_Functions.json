@@ -1,0 +1,12 @@
+[
+  "<p>The <b>greatest integer</b> in a real number \\(x\\), denoted by \\([x]\\), is the largest integer less than or equal to \\(x\\). <u>Examples:</u> \\([5/2]=2\\), \\([-5/2]=-3\\), \\([2]=2\\).</p><p>The greatest integer function is also known as the <b>floor function</b>, with notation \\(\\lfloor x \\rfloor\\).</p><p>The <b>ceiling function</b> of a real number \\(x\\), denoted by \\(\\lceil x \\rceil\\), is the smallest integer greater than or equal to \\(x\\).</li><li><u>Examples:</u> \\(\\lceil 5/2 \\rceil = 3\\).</p>",
+  ["<p>Find the values:$$ \\lfloor \\frac{1}{4} \\rfloor, \\lfloor \\lfloor \\frac{1}{2} \\rfloor + \\lfloor \\frac{1}{2} \\rfloor \\rfloor, \\lfloor -3 + \\lfloor \\frac{-1}{2} \\rfloor \\rfloor $$</p>","0, 0, -4"],
+  ["<p>Prove that:$$ n \\in \\mathb{Z} \\implies \\lfloor x + n \\rfloor = \\lfloor x \\rfloor + n $$</p>","FETCH:number_theory/floor_and_ceil_functions/addingIntegers"],
+  ["<p>What is the value of \\(\\lfloor x \\rfloor + \\lfloor -x \\rfloor\\) when \\(x\\) is a real number?</p>","<p>0 if \\(x\\) is an integer and -1 otherwise.</p>"],
+  ["<p>Prove that \\([x] + [x + 1/2] = [2x]\\).</p>","FETCH:number_theory/floor_and_ceil_functions/HermitesIdentitySpecialCase"],
+  ["<p>Prove that \\([x + y] ≥ [x] + [y]\\).</p>","FETCH:number_theory/floor_and_ceil_functions/superadditivity"],
+  ["<p>Prove that \\([xy] ≥ [x][y]\\).</p>","FETCH:number_theory/floor_and_ceil_functions/supermultiplicativity"],
+  ["<p>Prove that \\([x + 1/2]\\) is the integer nearest to \\(x\\).</p>","FETCH:number_theory/floor_and_ceil_functions/nearestInteger"],
+  ["<p>Prove that \\([(x + n)/m] = [([x] + n)/m]\\) where \\(n, m ∈ \\mathbb{Z}\\).</p>","FETCH:number_theory/floor_and_ceil_functions/plusAndDivide"],
+  ["<p>Prove that \\([√[x]] = √[x]\\).</p>","FETCH:number_theory/floor_and_ceil_functions/squareRootWithfloorFunc"]
+]
