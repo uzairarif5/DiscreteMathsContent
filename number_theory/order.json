@@ -1,8 +1,9 @@
 [
   "Integers_And_Rationals",
   "Sums_And_Products",
-  "Divisibility",
   "Floor_And_Ceiling_Functions",
+  "Divisibility",
+  "Integer_Representation_And_Operations",
   "Prime_Numbers",
   "Exactly_Divides",
   "Gcd_And_Lcm", 
@@ -13,7 +14,5 @@
   "Chinese_Remainder_Theorem",
   "Wilson's_Theorem",
   "Euler's_Theorem_And_Fermat's_Little_Theorem",
-  "Pseudoprime",
-  "Multiplicative_Arithmetic_Functions",
-  "Euler's_Totient_Function"
+  "Pseudoprime"
 ]
