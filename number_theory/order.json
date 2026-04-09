@@ -7,11 +7,11 @@
   "One's_Complement_And_Two's_Complement",
   "Prime_Numbers",
   "Exactly_Divides",
-  "Gcd_And_Lcm", 
+  "Greatest_Common_Divisor", 
+  "Least_Common_Multiple", 
   "Euclidean_Algorithm",
   "Congruence_Basics",
   "Residue_Systems",
   "Linear_Congruences_In_One_Variable",
-  "Chinese_Remainder_Theorem",
-  "Wilson's_Theorem"
+  "Chinese_Remainder_Theorem"
 ]

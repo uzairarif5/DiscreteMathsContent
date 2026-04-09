@@ -1,0 +1,15 @@
+[
+  "<p>\\( \\operatorname{lcm}(α, β)\\) (also represented as \\([α, β]\\) is the least common multiple of α and β. For example, \\( \\operatorname{lcm}(4, 6)\\) is 12.</p>",
+  ["Find \\([4,5]\\).","20"],
+  ["Find \\([6,9]\\).","18"],
+  ["Find \\([18,30]\\).","90"],
+  ["Find \\([48,64]\\).","192"],
+  ["Find \\([150,180]\\).","900"],
+  ["Find \\([330,660]\\).","660"],
+  ["<p>Prove that \\((a,b) * [a,b] = a*b\\).</p>", "FETCH:number_theory/lcm/gcdTimesLcmGivesProduct"],
+  ["<p>Prove that \\(c * [a,b] = [ca, cb]\\).</p>", "FETCH:number_theory/lcm/lcmLemma2"],
+  ["<p>Prove that \\([a,b, c] = [[a, b], c]\\).</p>", "FETCH:number_theory/lcm/lcmLemma3"],
+  ["<p>Prove that \\([a, b]|c\\) if and only if \\(a|c\\) and \\(b|c\\).</p>", "FETCH:number_theory/lcm/lcmLemma1"],
+  ["<p>Proof that if \\(a\\) and \\(b\\) are positive integers then there exists \\(c\\) and \\(d\\) such that \\(c|a\\), \\(d|b\\), \\([a, b] = cd\\) and \\((c, d) = 1\\).</p>", "FETCH:number_theory/lcm/lcmLemma4"],
+  ["<p>Proof that \\((a, b) = (a + b, [a, b])\\) where \\(a\\) and \\(b\\) are positive integers.</p>","FETCH:number_theory/lcm/lcmLemma5"]
+]
