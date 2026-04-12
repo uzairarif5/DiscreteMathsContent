@@ -10,6 +10,9 @@
   ["<p>Prove that \\(c * [a,b] = [ca, cb]\\).</p>", "FETCH:number_theory/lcm/lcmLemma2"],
   ["<p>Prove that \\([a,b, c] = [[a, b], c]\\).</p>", "FETCH:number_theory/lcm/lcmLemma3"],
   ["<p>Prove that \\([a, b]|c\\) if and only if \\(a|c\\) and \\(b|c\\).</p>", "FETCH:number_theory/lcm/lcmLemma1"],
-  ["<p>Proof that if \\(a\\) and \\(b\\) are positive integers then there exists \\(c\\) and \\(d\\) such that \\(c|a\\), \\(d|b\\), \\([a, b] = cd\\) and \\((c, d) = 1\\).</p>", "FETCH:number_theory/lcm/lcmLemma4"],
-  ["<p>Proof that \\((a, b) = (a + b, [a, b])\\) where \\(a\\) and \\(b\\) are positive integers.</p>","FETCH:number_theory/lcm/lcmLemma5"]
+  ["<p>Prove that if \\(a\\) and \\(b\\) are positive integers then there exists \\(c\\) and \\(d\\) such that \\(c|a\\), \\(d|b\\), \\([a, b] = cd\\) and \\((c, d) = 1\\).</p>", "FETCH:number_theory/lcm/lcmLemma4"],
+  ["<p>Prove that \\((a, b) = (a + b, [a, b])\\) where \\(a\\) and \\(b\\) are positive integers.</p>","FETCH:number_theory/lcm/lcmLemma5"],
+  ["<p>Prove that \\([(a, b), c] = ([a, c], [b, c])\\) and \\(([a, b], c) = [(a, c), (b, c)]\\) where \\(a\\) and \\(b\\) are positive integers.</p>","FETCH:number_theory/lcm/lcmLemma6"],
+  ["<p>Prove that:</p><div>$$ [a,b,c] =\\frac{abc(a,b,c)}{(a,b)(a,c)(b,c)} $$</div>","FETCH:number_theory/lcm/lcmLemma7"],
+  ["<p>Prove that:</p><div>$$ ([a, b], [a, c], [b, c]) = [(a, b), (a, c), (b, c)] $$</div>","FETCH:number_theory/lcm/lcmLemma8"]
 ]

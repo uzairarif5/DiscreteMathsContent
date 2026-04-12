@@ -12,6 +12,7 @@
   ["<p>What is \\(\\gcd (a,a-2)\\) when \\(a\\) is odd?</p>","FETCH:number_theory/more_gcd/gcdLemma10"],
   ["<p>If \\(p\\) is prime and \\(p \\nmid a\\), then prove \\((p, a)=1\\).</p>","FETCH:number_theory/prime_numbers/primeLemma3"],
   ["<p>Prove that if \\((m,b)=1\\), then \\((ma,b) = (a,b)\\).</p>","FETCH:number_theory/more_gcd/gcdLemma3"],
+  ["Prove that if \\((a, b) = 1\\) and \\(ab = c^n\\), then there exists integers \\(x\\) and \\(y\\) such that \\(a = x^n\\) and \\(b = y^n\\).","FETCH:number_theory/more_gcd/gcdLemma6"],
   ["<p>Prove that the smallest positive linear combination of \\(a\\) and \\(b\\) is \\((a,b)\\).</p>","FETCH:number_theory/divisibility/linear_combination_smallest_gcd"],
   ["<p>Prove that every linear combination of \\(a\\) and \\(b\\) is a multiple of \\((a,b)\\) and vice versa.</p>","FETCH:number_theory/divisibility/every_linear_combination"],
   ["<p>Prove that if \\((a, b) = 1\\) and \\(c|(a+b)\\). Prove that \\((a, c) = 1\\) and \\((b, c) = 1\\).</p>","FETCH:number_theory/more_gcd/gcdLemma2"],

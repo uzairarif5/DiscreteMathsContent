@@ -5,6 +5,7 @@
   ["<p>Find the prime factorization of 1125.</p>","<p>\\(3^2 * 5^3\\)</p>"],
   ["<p>Find the prime factorization of 3087.</p>","<p>\\(3^2 * 7^3\\)</p>"],
   ["<p>Find the prime factorization of 5880.</p>","<p>\\(2^3 * 3 *5 * 7^2\\)</p>"],
+  ["<p>A camera normally retails for $99 but is being sold at a discounted integer price. Total sales for the camera reached $8,137. Determine the total number of units sold.</p>","Prime factors of 8137 is 79 and 103. If the discounted price is an integer less than 99, then it has to be 79. Since 79 * 103 = 8137, then they sold 103 units."],
   ["<p>If \\(p\\) is prime and \\(p|ab\\), then prove that either \\(p|a\\) or \\(p|b\\).</p>","FETCH:number_theory/prime_numbers/primeLemma1"],
   ["<p>Prove the fundamental theorem of arithmetic.</p>","FETCH:number_theory/prime_numbers/fundamental_theorem_of_arithmetic"],
   ["<p>Prove that there are infinitely many prime numbers.</p>","FETCH:number_theory/prime_numbers/infinite_primes"],
